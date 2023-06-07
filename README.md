@@ -51,10 +51,37 @@ This type of counter is normally referred to as a Down Counter, (CTD). In a bina
 
 
 ### PROGRAM 
+```
+UP COUNTER
+module upcounter(clk,a);
+input clk;
+output reg[3:0]a;
+always@(posedge clk)
+begin
+a[3]=(a[2] & a[1] & a[0]) ^ a[3];
+a[2]=(a[1] & a[0]) ^ a[2];
+a[1]=(a[0] ^ a[1]);
+a[0]=1 ^ a[0];
+end
+endmodule
+
+DOWN COUNTER
+module downcounter(clk,a);
+input clk;
+output reg[3:0]a;
+always@(posedge clk)
+begin
+a[3]=(~a[2] & ~a[1] & ~a[0])^ a[3];
+a[2]=(~a[1] & ~a[0]) ^ a[2];
+a[1]=(~a[0] ^ a[1]);
+a[0]=1 ^ a[0];
+end
+endmodule
+````
 /*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by:Hariharan.S
+RegisterNumber:212222050016
 */
 
 
@@ -63,6 +90,9 @@ RegisterNumber:
 
 
 ### RTL LOGIC UP COUNTER AND DOWN COUNTER  
+UP COUNTER![uprtl](https://github.com/Hariharan2004S/Exp-7-Synchornous-counters-/assets/123146156/44547ec2-eaf8-4cfa-a21f-a9a04ed1b4e2)
+
+DOWN COUNTER![WhatsApp Image 2023-06-07 at 13 19 10](https://github.com/Hariharan2004S/Exp-7-Synchornous-counters-/assets/123146156/65c8505e-1ac0-4ada-8c81-d092274cd56c)
 
 
 
@@ -73,7 +103,8 @@ RegisterNumber:
 
 
 ### TIMING DIGRAMS FOR COUNTER  
-
+UP COUNTER
+DOWN COUNTER
 
 
 
