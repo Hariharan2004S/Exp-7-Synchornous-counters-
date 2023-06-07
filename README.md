@@ -103,8 +103,11 @@ DOWN COUNTER![WhatsApp Image 2023-06-07 at 13 19 10](https://github.com/Harihara
 
 
 ### TIMING DIGRAMS FOR COUNTER  
-UP COUNTER
-DOWN COUNTER
+UP COUNTER![uptd](https://github.com/Hariharan2004S/Exp-7-Synchornous-counters-/assets/123146156/12b46c76-3e4c-43c4-99a8-70486f241449)
+
+
+DOWN COUNTER![dctd](https://github.com/Hariharan2004S/Exp-7-Synchornous-counters-/assets/123146156/8cbbfae6-3d04-4983-8f99-0f54d102e2be)
+
 
 
 
