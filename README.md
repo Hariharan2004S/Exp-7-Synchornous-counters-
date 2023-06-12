@@ -112,9 +112,11 @@ DOWN COUNTER![dctd](https://github.com/Hariharan2004S/Exp-7-Synchornous-counters
 
 
 
-### TRUTH TABLE 
+### TRUTH TABLE
+UP COUNTER![UPcounter](https://github.com/Hariharan2004S/Exp-7-Synchornous-counters-/assets/123146156/42fc32ed-172d-4067-a03f-f4e70ef59836)
 
 
+DOWN COUNTER![downcounter](https://github.com/Hariharan2004S/Exp-7-Synchornous-counters-/assets/123146156/d4e8de51-8e4c-4a0f-9316-3ff8ecde2bd0)
 
 
 
